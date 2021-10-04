@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9299F42270771D600728487 /* Example_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9299F41270771D600728487 /* Example_Text.swift */; };
+		D9299F44270771E000728487 /* Example_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9299F43270771E000728487 /* Example_Image.swift */; };
+		D9299F462707735300728487 /* Example_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9299F452707735300728487 /* Example_Stack.swift */; };
 		D9C6C99B270619B10030053D /* Start_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6C99A270619B10030053D /* Start_SwiftUIApp.swift */; };
 		D9C6C99D270619B10030053D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6C99C270619B10030053D /* ContentView.swift */; };
 		D9C6C99F270619B30030053D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6C99E270619B30030053D /* Assets.xcassets */; };
 		D9C6C9A2270619B30030053D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6C9A1270619B30030053D /* Preview Assets.xcassets */; };
+		D9FE0F02270AB181009F8D5E /* Example_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE0F01270AB181009F8D5E /* Example_GeometryReader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9299F41270771D600728487 /* Example_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Text.swift; sourceTree = "<group>"; };
+		D9299F43270771E000728487 /* Example_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Image.swift; sourceTree = "<group>"; };
+		D9299F452707735300728487 /* Example_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Stack.swift; sourceTree = "<group>"; };
 		D9C6C997270619B10030053D /* Start-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Start-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C6C99A270619B10030053D /* Start_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start_SwiftUIApp.swift; sourceTree = "<group>"; };
 		D9C6C99C270619B10030053D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9C6C99E270619B30030053D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C6C9A1270619B30030053D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9FE0F01270AB181009F8D5E /* Example_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_GeometryReader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +40,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D9299F3E2707708700728487 /* Ch01-Text, Image, Stack, GeometryReader */ = {
+			isa = PBXGroup;
+			children = (
+				D9299F41270771D600728487 /* Example_Text.swift */,
+				D9299F43270771E000728487 /* Example_Image.swift */,
+				D9299F452707735300728487 /* Example_Stack.swift */,
+				D9FE0F01270AB181009F8D5E /* Example_GeometryReader.swift */,
+			);
+			path = "Ch01-Text, Image, Stack, GeometryReader";
+			sourceTree = "<group>";
+		};
 		D9C6C98E270619B10030053D = {
 			isa = PBXGroup;
 			children = (
@@ -53,6 +72,7 @@
 			children = (
 				D9C6C99A270619B10030053D /* Start_SwiftUIApp.swift */,
 				D9C6C99C270619B10030053D /* ContentView.swift */,
+				D9299F3E2707708700728487 /* Ch01-Text, Image, Stack, GeometryReader */,
 				D9C6C99E270619B30030053D /* Assets.xcassets */,
 				D9C6C9A0270619B30030053D /* Preview Content */,
 			);
@@ -137,6 +157,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9299F462707735300728487 /* Example_Stack.swift in Sources */,
+				D9299F44270771E000728487 /* Example_Image.swift in Sources */,
+				D9299F42270771D600728487 /* Example_Text.swift in Sources */,
+				D9FE0F02270AB181009F8D5E /* Example_GeometryReader.swift in Sources */,
 				D9C6C99D270619B10030053D /* ContentView.swift in Sources */,
 				D9C6C99B270619B10030053D /* Start_SwiftUIApp.swift in Sources */,
 			);
