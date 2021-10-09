@@ -10,23 +10,32 @@
 		D9299F42270771D600728487 /* Example_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9299F41270771D600728487 /* Example_Text.swift */; };
 		D9299F44270771E000728487 /* Example_Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9299F43270771E000728487 /* Example_Image.swift */; };
 		D9299F462707735300728487 /* Example_Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9299F452707735300728487 /* Example_Stack.swift */; };
+		D9B0D66A270F44AB0034795A /* Example_Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B0D669270F44AB0034795A /* Example_Button.swift */; };
+		D9C26BE0271016CA007DF139 /* Example_Navigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C26BDF271016CA007DF139 /* Example_Navigation.swift */; };
+		D9C26BE227103F75007DF139 /* Example_List.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C26BE127103F75007DF139 /* Example_List.swift */; };
 		D9C6C99B270619B10030053D /* Start_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6C99A270619B10030053D /* Start_SwiftUIApp.swift */; };
 		D9C6C99D270619B10030053D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C6C99C270619B10030053D /* ContentView.swift */; };
 		D9C6C99F270619B30030053D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6C99E270619B30030053D /* Assets.xcassets */; };
 		D9C6C9A2270619B30030053D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9C6C9A1270619B30030053D /* Preview Assets.xcassets */; };
 		D9FE0F02270AB181009F8D5E /* Example_GeometryReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE0F01270AB181009F8D5E /* Example_GeometryReader.swift */; };
+		D9FE94B02710B54800946527 /* Example_Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9FE94AF2710B54800946527 /* Example_Preview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D9299F41270771D600728487 /* Example_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Text.swift; sourceTree = "<group>"; };
 		D9299F43270771E000728487 /* Example_Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Image.swift; sourceTree = "<group>"; };
 		D9299F452707735300728487 /* Example_Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Stack.swift; sourceTree = "<group>"; };
+		D9B0D669270F44AB0034795A /* Example_Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Button.swift; sourceTree = "<group>"; };
+		D9B0D66B270F48C00034795A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D9C26BDF271016CA007DF139 /* Example_Navigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Navigation.swift; sourceTree = "<group>"; };
+		D9C26BE127103F75007DF139 /* Example_List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_List.swift; sourceTree = "<group>"; };
 		D9C6C997270619B10030053D /* Start-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Start-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9C6C99A270619B10030053D /* Start_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Start_SwiftUIApp.swift; sourceTree = "<group>"; };
 		D9C6C99C270619B10030053D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9C6C99E270619B30030053D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9C6C9A1270619B30030053D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D9FE0F01270AB181009F8D5E /* Example_GeometryReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_GeometryReader.swift; sourceTree = "<group>"; };
+		D9FE94AF2710B54800946527 /* Example_Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example_Preview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +60,17 @@
 			path = "Ch01-Text, Image, Stack, GeometryReader";
 			sourceTree = "<group>";
 		};
+		D9B0D668270F448E0034795A /* Ch02-Button, Navigation, List, Preview */ = {
+			isa = PBXGroup;
+			children = (
+				D9B0D669270F44AB0034795A /* Example_Button.swift */,
+				D9C26BDF271016CA007DF139 /* Example_Navigation.swift */,
+				D9C26BE127103F75007DF139 /* Example_List.swift */,
+				D9FE94AF2710B54800946527 /* Example_Preview.swift */,
+			);
+			path = "Ch02-Button, Navigation, List, Preview";
+			sourceTree = "<group>";
+		};
 		D9C6C98E270619B10030053D = {
 			isa = PBXGroup;
 			children = (
@@ -70,9 +90,11 @@
 		D9C6C999270619B10030053D /* Start-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D9B0D66B270F48C00034795A /* Info.plist */,
 				D9C6C99A270619B10030053D /* Start_SwiftUIApp.swift */,
 				D9C6C99C270619B10030053D /* ContentView.swift */,
 				D9299F3E2707708700728487 /* Ch01-Text, Image, Stack, GeometryReader */,
+				D9B0D668270F448E0034795A /* Ch02-Button, Navigation, List, Preview */,
 				D9C6C99E270619B30030053D /* Assets.xcassets */,
 				D9C6C9A0270619B30030053D /* Preview Content */,
 			);
@@ -158,10 +180,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9299F462707735300728487 /* Example_Stack.swift in Sources */,
+				D9FE94B02710B54800946527 /* Example_Preview.swift in Sources */,
 				D9299F44270771E000728487 /* Example_Image.swift in Sources */,
+				D9B0D66A270F44AB0034795A /* Example_Button.swift in Sources */,
 				D9299F42270771D600728487 /* Example_Text.swift in Sources */,
 				D9FE0F02270AB181009F8D5E /* Example_GeometryReader.swift in Sources */,
+				D9C26BE227103F75007DF139 /* Example_List.swift in Sources */,
 				D9C6C99D270619B10030053D /* ContentView.swift in Sources */,
+				D9C26BE0271016CA007DF139 /* Example_Navigation.swift in Sources */,
 				D9C6C99B270619B10030053D /* Start_SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,6 +322,7 @@
 				DEVELOPMENT_TEAM = KYG7C4ND55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Start-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -326,6 +353,7 @@
 				DEVELOPMENT_TEAM = KYG7C4ND55;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Start-SwiftUI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
